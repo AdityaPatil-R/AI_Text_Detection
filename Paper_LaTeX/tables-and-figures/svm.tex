@@ -1,0 +1,19 @@
+\begin{table}[ht]
+\centering
+\caption{Classification performance of the model on Human vs AI detection task}
+\label{tab:classification_report}
+\resizebox{\columnwidth}{!}{%
+\begin{tabularx}{\dimexpr0.7\textwidth}{l c c c c}
+\toprule
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Support} \\
+\midrule
+Human (0) & 0.69 & 0.70 & 0.70 & 12,000 \\
+AI (1)    & 0.70 & 0.69 & 0.70 & 12,000 \\
+\midrule
+\textbf{Accuracy}     &       &       & \textbf{0.70} & 24,000 \\
+\textbf{Macro Avg}    & 0.70  & 0.70  & 0.70           & 24,000 \\
+\textbf{Weighted Avg} & 0.70  & 0.70  & 0.70           & 24,000 \\
+\bottomrule
+\end{tabularx}%
+}
+\end{table}

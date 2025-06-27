@@ -1,0 +1,191 @@
+% Use this file for citations not found in the ACL Anthology (contained in "anthology.bib").
+@misc{devlin2019bertpretrainingdeepbidirectional,
+      title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}, 
+      author={Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova},
+      year={2019},
+      eprint={1810.04805},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/1810.04805}, 
+}
+
+@misc{TensorFlow, url={https://www.tensorflow.org/text/tutorials/classify_text_with_bert}, journal={TensorFlow}} 
+
+@misc{
+liu2020roberta,
+title={Ro{\{}BERT{\}}a: A Robustly Optimized {\{}BERT{\}} Pretraining Approach},
+author={Yinhan Liu and Myle Ott and Naman Goyal and Jingfei Du and Mandar Joshi and Danqi Chen and Omer Levy and Mike Lewis and Luke Zettlemoyer and Veselin Stoyanov},
+year={2020},
+url={https://openreview.net/forum?id=SyxS0T4tvS}
+}
+
+@inproceedings{
+he2021deberta,
+title={{\{}DEBERTA{\}}: {\{}DECODING{\}}-{\{}ENHANCED{\}} {\{}BERT{\}} {\{}WITH{\}} {\{}DISENTANGLED{\}} {\{}ATTENTION{\}}},
+author={Pengcheng He and Xiaodong Liu and Jianfeng Gao and Weizhu Chen},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=XPZIaotutsD}
+}
+@misc{openai_roberta_detector,
+  author       = {OpenAI},
+  title        = {RoBERTa base OpenAI Detector},
+  howpublished = {\url{https://huggingface.co/openai-community/roberta-base-openai-detector}},
+  note         = {Accessed: 2025-05-21}
+}
+
+
+@misc{ahmadreza13_human_ai_2023,
+  author       = {Ahmadreza13},
+  title        = {Human vs AI Generated Dataset},
+  year         = {2023},
+  howpublished = {\url{https://huggingface.co/datasets/ahmadreza13/human-vs-Ai-generated-dataset}},
+  note         = {Accessed: 2025-05-21}
+}
+
+@misc{mitchell2023detectgptzeroshotmachinegeneratedtext,
+      title={DetectGPT: Zero-Shot Machine-Generated Text Detection using Probability Curvature}, 
+      author={Eric Mitchell and Yoonho Lee and Alexander Khazatsky and Christopher D. Manning and Chelsea Finn},
+      year={2023},
+      eprint={2301.11305},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2301.11305}, 
+}
+
+
+@inproceedings{gururangan-etal-2020-dont,
+    title = "Don`t Stop Pretraining: Adapt Language Models to Domains and Tasks",
+    author = "Gururangan, Suchin  and
+      Marasovi{\'c}, Ana  and
+      Swayamdipta, Swabha  and
+      Lo, Kyle  and
+      Beltagy, Iz  and
+      Downey, Doug  and
+      Smith, Noah A.",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.740/",
+    doi = "10.18653/v1/2020.acl-main.740",
+    pages = "8342--8360",
+    abstract = "Language models pretrained on text from a wide variety of sources form the foundation of today`s NLP. In light of the success of these broad-coverage models, we investigate whether it is still helpful to tailor a pretrained model to the domain of a target task. We present a study across four domains (biomedical and computer science publications, news, and reviews) and eight classification tasks, showing that a second phase of pretraining in-domain (domain-adaptive pretraining) leads to performance gains, under both high- and low-resource settings. Moreover, adapting to the task`s unlabeled data (task-adaptive pretraining) improves performance even after domain-adaptive pretraining. Finally, we show that adapting to a task corpus augmented using simple data selection strategies is an effective alternative, especially when resources for domain-adaptive pretraining might be unavailable. Overall, we consistently find that multi-phase adaptive pretraining offers large gains in task performance."
+}
+
+@inproceedings{jiao-etal-2021-self,
+    title = "Self-Training Sampling with Monolingual Data Uncertainty for Neural Machine Translation",
+    author = "Jiao, Wenxiang  and
+      Wang, Xing  and
+      Tu, Zhaopeng  and
+      Shi, Shuming  and
+      Lyu, Michael  and
+      King, Irwin",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.221/",
+    doi = "10.18653/v1/2021.acl-long.221",
+    pages = "2840--2850",
+    abstract = "Self-training has proven effective for improving NMT performance by augmenting model training with synthetic parallel data. The common practice is to construct synthetic data based on a randomly sampled subset of large-scale monolingual data, which we empirically show is sub-optimal. In this work, we propose to improve the sampling procedure by selecting the most informative monolingual sentences to complement the parallel data. To this end, we compute the uncertainty of monolingual sentences using the bilingual dictionary extracted from the parallel data. Intuitively, monolingual sentences with lower uncertainty generally correspond to easy-to-translate patterns which may not provide additional gains. Accordingly, we design an uncertainty-based sampling strategy to efficiently exploit the monolingual data for self-training, in which monolingual sentences with higher uncertainty would be sampled with higher probability. Experimental results on large-scale WMT English{\ensuremath{\Rightarrow}}German and English{\ensuremath{\Rightarrow}}Chinese datasets demonstrate the effectiveness of the proposed approach. Extensive analyses suggest that emphasizing the learning on uncertain monolingual sentences by our approach does improve the translation quality of high-uncertainty sentences and also benefits the prediction of low-frequency words at the target side."
+}
+@article{devlin2019bert,
+  title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding},
+  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  journal={arXiv preprint arXiv:1810.04805},
+  year={2019}
+}
+@misc{hu2021lora,
+  title={LoRA: Low-Rank Adaptation of Large Language Models},
+  author={Edward J. Hu and Yelong Shen and Phillip Wallis and Zeyuan Allen-Zhu and Yuanzhi Li and Shean Wang and Weizhu Chen},
+  year={2021},
+  eprint={2106.09685},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}
+
+
+@article{cortes1995support,
+  title={Support-vector networks},
+  author={Cortes, Corinna and Vapnik, Vladimir},
+  journal={Machine learning},
+  volume={20},
+  number={3},
+  pages={273--297},
+  year={1995},
+  publisher={Springer}
+}
+
+@article{hanley1982meaning,
+  title={The meaning and use of the area under a receiver operating characteristic (ROC) curve},
+  author={Hanley, James A and McNeil, Barbara J},
+  journal={Radiology},
+  volume={143},
+  number={1},
+  pages={29--36},
+  year={1982},
+  publisher={Radiological Society of North America}
+}
+
+@article{guo2023hc3,
+  title={How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},
+  author={Guo, Jiaxin and Chang, Shuning and Wang, Ziyu and Zhou, Ming},
+  journal={arXiv preprint arXiv:2301.07597},
+  year={2023}
+}
+@article{marcus1993building,
+  title={Building a large annotated corpus of English: The Penn Treebank},
+  author={Marcus, Mitchell P. and Santorini, Beatrice and Marcinkiewicz, Mary Ann},
+  journal={Computational linguistics},
+  volume={19},
+  number={2},
+  pages={313--330},
+  year={1993},
+  publisher={MIT Press}
+}
+@misc{ahmadreza13_human_vs_Ai_generated_dataset,
+  author       = {ahmadreza13},
+  title        = {human-vs-Ai-generated-dataset},
+  howpublished = {\url{https://huggingface.co/datasets/ahmadreza13/human-vs-Ai-generated-dataset}},
+  year         = {2024},
+  note         = {3.61M samples}
+}
+@article{guo-etal-2023-hc3,
+  title   = {How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection},
+  author  = {Guo, Biyang and Zhang, Xin and Wang, Ziyuan and Jiang, Minqi and Nie, Jinran and Ding, Yuxuan and Yue, Jianwei and Wu, Yupeng},
+  journal = {arXiv preprint arXiv:2301.07597},
+  year    = {2023},
+}@software{wolf-etal-2020-transformers,
+  author = {Thomas Wolf and Lysandre Debut and Victor Sanh and Julien Chaumond and Clement Delangue and Anthony Moi and Pierric Cistac and Tim Rault and Remi Louf and Morgan Funtowicz and Joe Davison and Sam Shleifer and Patrick von Platen and Clara Ma and Yacine Jernite and Julien Plu and Canwen Xu and Teven Le Scao and Sylvain Gugger and Mariama Drame and Quentin Lhoest and Alexander M. Rush},
+  title = {Transformers: State-of-the-Art Natural Language Processing},
+  year = {2020},
+  note = {Software available from https://github.com/huggingface/transformers},
+  url = {https://www.aclweb.org/anthology/2020.emnlp-demos.6},
+  howpublished = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pp. 38--45}
+}
+
+@article{huang2023survey,
+  title        = {A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions},
+  author       = {Huang, Lei and Yu, Weijiang and Ma, Weitao and Zhong, Weihong and Feng, Zhangyin and Wang, Haotian and Chen, Qianglong and Peng, Weihua and Feng, Xiaocheng and Qin, Bing and Liu, Ting},
+  journal      = {arXiv preprint arXiv:2311.05232},
+  year         = {2023},
+  note         = {Survey on hallucination taxonomy and mitigation in LLMs}  
+}
+@article{xu2024inevitable,
+  title        = {Hallucination is Inevitable: An Innate Limitation of Large Language Models},
+  author       = {Xu, Ziwei and Jain, Sanjay and Kankanhalli, Mohan},
+  journal      = {arXiv preprint arXiv:2401.11817},
+  year         = {2024},
+  note         = {Formal proof that LLM hallucination cannot be fully eliminated}  
+}

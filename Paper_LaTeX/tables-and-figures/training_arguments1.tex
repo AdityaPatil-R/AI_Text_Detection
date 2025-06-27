@@ -1,0 +1,16 @@
+\begin{lstlisting}[style=mypython, caption={Training Arguments}]
+training_args = TrainingArguments(
+    output_dir=output_dir,
+    eval_strategy="epoch",
+    save_strategy="epoch",
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=8,
+    num_train_epochs=3,
+    label_names=["labels"], 
+    weight_decay=0.01,
+    logging_steps=50,
+    load_best_model_at_end=True,
+    metric_for_best_model="accuracy",
+    save_total_limit=2,
+    resume_from_checkpoint=True if os.path.exists(output_dir) else False)
+\end{lstlisting}

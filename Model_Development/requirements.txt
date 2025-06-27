@@ -1,0 +1,14 @@
+transformers
+datasets
+evaluate
+torch
+fsspec
+scikit-learn
+peft
+tqdm
+captum
+jsonlines
+matplotlib
+pandas
+numpy
+gitpython

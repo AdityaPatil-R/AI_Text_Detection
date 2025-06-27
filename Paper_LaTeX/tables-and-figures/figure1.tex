@@ -1,0 +1,29 @@
+\begin{figure}[ht]
+\centering
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  keepspaces=true,
+  frame=single
+}
+\begin{lstlisting}
+Project Root
+-.gitignore # Files to exclude 
+- README.md  # Project overview
+\_ requirements.txt # Dependencies 
+
+Notebooks
+\_ Model Evaluations.ipynb # Baseline
+
+Scripts
+- csv_to_jsonl.py # Used for Dev Set 
+- dev_preprocessing.py # Uses Dev Set
+- run_model.py # RoBERTa runner
+- small_test.py # Sanity check
+\_ train_roberta.py # Fine-tune RoBERTa 
+\end{lstlisting}
+\caption{Directory structure of the project with purpose annotations.}
+\label{fig:directory-structure}
+\end{figure}
+
+\vspace{-4mm}
